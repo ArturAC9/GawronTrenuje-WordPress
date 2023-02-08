@@ -1,0 +1,267 @@
+body, h1, h2, h3,h4,p {
+	font-family: 'Oswald', sans-serif!important;
+}
+h2.title, header h2 {
+    text-transform: uppercase;
+}
+.primary_btn:hover {
+    background-position: 100%;
+}
+main#main {
+    padding: 0;
+}
+.topBar {
+    width: 100%;
+    height: 7px;
+    background: transparent linear-gradient(90deg,#ae2a78,#e84457 52%,#ec6531) no-repeat padding-box;
+}
+/* menu */
+a.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+		color: #4a4a4a!important;
+		font-weight: 300;
+}
+@media (min-width: 769px){
+	ul#menu-mainmenu {
+    position: absolute;
+    right: 0;
+}
+}
+ul#menu-mainmenu li {
+    margin: 0 2rem;
+}
+/* button */
+.primaryButton {
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg,#ae2a78,#e84457 26%,#ec6531 50%,#e84457 76%,#ae2a78);
+    /* height: 2.9rem; */
+    /* line-height: 2.9rem; */
+    border-radius: 0;
+    text-align: center;
+    min-width: 7.8rem;
+    transition: background-position .3s;
+    text-transform: uppercase;
+    font-weight: 300;
+	
+}
+.primaryButton a {
+    color: #fff!important;
+}
+/* przemiany */
+.card-body {
+min-height: 43rem!important;
+    padding: 0px!important;
+	color: #2e2828;
+}
+p.card-text {
+    padding: 1rem;
+}
+h5.card-title {
+    padding: 0.5rem 1rem;
+}
+/* section.methamorphoses{
+	background-image: url(https://www.gawrontrenuje.pl/build/images/bg_metamorphoses.jpg);
+} */
+/* opinie */
+.adventagesItem {
+		margin: 50px;
+    display: flex;
+    align-items: center;
+        justify-content: flex-start;
+}
+.adventagesItem__content{
+	margin-left: 20px;
+}
+.package{
+	background-image: url('/wp-content/uploads/2022/11/bg2.jpg');
+}
+.offer-item-wrapper {
+    border: 1px solid #707070;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    background-color: #fff;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    margin-top: -7rem;
+}
+button.primary_btn {
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg,#ae2a78,#e84457 26%,#ec6531 50%,#e84457 76%,#ae2a78);
+    height: 2.9rem;
+    line-height: 2.9rem;
+    border-radius: 0;
+    min-width: 7.8rem;
+    transition: background-position .3s;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+    /* min-width: 33%; */
+    margin: auto;
+    color: #fff;
+}
+.package__image {
+    margin-top: 4rem;
+}
+.newsletter {
+    background-image: url('/wp-content/uploads/2022/11/bg_newsletter.jpg');
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5.5rem 0;
+}	
+/* newsletter form */
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-email.newsletterField:hover {
+    box-shadow: none;
+    border-color: #ec6531;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-email.newsletterField {
+    border: 1px solid #707070;
+    border-radius: 0;
+    padding-left: 51px;
+    text-transform: uppercase;
+    height: 58px;
+		width: 100%;
+}
+/* newsletter buton */
+input.wpcf7-form-control.has-spinner.wpcf7-submit.primary_btn {
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg,#ae2a78,#e84457 26%,#ec6531 50%,#e84457 76%,#ae2a78);
+    height: 3.7rem;
+    line-height: 2.9rem;
+    border-radius: 0;
+    min-width: 7.8rem;
+    transition: background-position .3s;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: none;
+    color: #fff;
+}
+a  {
+    color: #e84457!important;
+    text-decoration: none!important;
+}
+span.wpcf7-list-item-label {
+    color: #fff;
+}
+.footerBottom {
+    display: flex;
+}
+p.footerBootm__realization{
+	opacity: .2;
+}
+footer {
+    background: #2E2828;
+}
+/* stopka formularz */
+input.wpcf7-form-control.wpcf7-text.footer__field {
+    border: 1px solid #707070;
+    border-radius: 0;
+    padding-left: 51px;
+    text-transform: uppercase;
+    height: 58px;
+	padding-left: 32px;
+    background-color: #585353;
+    font-size: 14px;
+    color: #fff;
+	width: 100%;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.footer__fieldArea {
+    resize: none;
+    height: 146px;
+    padding-top: 1rem;
+    padding-left: 32px;
+    background-color: #585353;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+}
+/* metamorfozy */
+.methamorphosesInfo__box {
+    display: flex;
+    border-radius: 7px;
+    box-shadow: 8px 8px 24px 0px rgba(0, 0, 0, 1);
+    width: 200px;
+    padding: 10px;
+    margin: 20px auto;
+    justify-content: space-evenly;
+}
+.methamorphosesInfo__boxLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.methamorphosesInfo__boxRight{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.text-center.packageTitle {
+    margin-bottom: 8rem!important;
+}
+header h2{
+	margin-bottom: 2rem;
+}
+section.methamorphoses {
+    background-size: cover;
+    background-image: url(/wp-content/uploads/2022/11/bg.jpg);
+}
+.page-id-9 section.methamorphoses {
+    background: none;
+    margin-top: -4rem;
+}
+.methamorphoses__header {
+    margin-bottom: 4rem;
+}
+
+.testimonials__content {
+    padding: 6rem 5rem;
+}
+a.wp-block-button__link.wp-element-button {
+    height: 2.9rem;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    min-width: 7.8rem;
+    transition: background-position .3s;
+    text-transform: uppercase;
+    font-weight: 300;
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg,#ae2a78,#e84457 26%,#ec6531 50%,#e84457 76%,#ae2a78);
+    color: #fff!important;
+    align-items: center;
+    justify-content: center;
+}
+.is-layout-flow.wp-block-column.is-vertically-aligned-center.tescior {
+    margin-right: -5rem;
+    margin-left: 5rem;
+}
+/* stopka social */
+a.footer__postIcon {
+    display: flex;
+    align-items: flex-end;
+}
+.social {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+.bi-instagram::before, .bi-facebook::before {
+    color: #fff;
+}
+footer a{
+	color: #fff!important;
+}
+.contactForm__leftColumn {
+height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

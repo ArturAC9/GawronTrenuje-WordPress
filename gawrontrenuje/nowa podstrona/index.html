@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<style>
+    h1,h2,h3,h4,h5,h6, p {
+        color: #232828;
+    }
+    section{
+        margin: 100px 0;
+    }
+    .cta__boxButton button {
+    background: linear-gradient(95deg, rgba(250,176,28,1) 0%, rgba(248,85,7,1) 100%);
+    border: none;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    min-width: 150px;
+    min-height: 50px;
+}
+    /* header */
+    .topInfo__title h1 {
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+.col-md-4.topInfo__arrow {
+    display: flex;
+}
+.col-md-4.topInfo__arrow img {
+    height: 71px;
+    margin-top: -54px;
+}
+.col-md-4.topInfo__arrow p {
+    text-align: right;
+    margin-left: -53px;
+    font-weight: 600;
+}
+.topInfo__subtitle p{
+    font-weight: 600;
+}
+/* header end */
+/* about */
+h2.text-center.about__title{
+    color: #ff6700;
+    margin-bottom: 1.5em;
+    font-size: 30px;
+    font-weight: 600;
+}
+.col-md-6.about__content {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.col-md-6.about__image img {
+    margin-bottom: 48px;
+}
+.col-md-8.aboutTrainer__title h2 {
+    font-weight: 100;
+}
+h3.text-center {
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+/* about end */
+/* about trainer */
+.col-md-6.aboutTrainer__subtitle p {
+    width: 80%;
+    font-size: 18px;
+}
+.aboutTrainer__image img{
+    height: 700px;
+}
+.col-md-8.aboutTrainer__info p {
+    font-size: 20px;
+}
+/* about trainer end */
+/* benefits */
+.benefits h2, .opinion__title h2, .QandA__title h2{
+    color: #ff6700;
+}
+/* benefits end*/
+/* meal */
+.col-md-6.meal__content {
+    padding: 0 6rem;
+}
+.col-md-6.meal__content h2 {
+    line-height: 45px;
+    margin-bottom: 10px;
+}
+.cta__boxPrice p {
+    color: #FF6700;
+    font-size: 60px;
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+.cta__boxPrice span {
+    font-size: 25px;
+    text-decoration: line-through;
+    font-weight: 700;
+}
+.cta__boxPrice {
+    text-align: end;
+}
+.cta__box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* meal end */
+section.bottomIcons {
+    background: #FF6700;
+    padding: 50px 0;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.methamorphoses__background {
+    background: linear-gradient(95deg, rgba(250,176,28,1) 0%, rgba(248,85,7,1) 100%);
+    width: 65%;
+    margin: auto;
+    min-height: 475px;
+    margin-bottom: -441px;
+}
+.methamorphoses__row{
+    margin-bottom: 50px;
+}
+.aboutTrainer__title{
+    margin: auto;
+}
+.bar {
+    background: linear-gradient(95deg, rgba(250,176,28,1) 0%, rgba(248,85,7,1) 100%);
+    height: 5px;
+    width: 70%;
+    margin: 5% auto;
+}
+.aboutTrainer__info{
+    margin: auto;
+}
+
+.benefits__row {
+    display: flex;
+    box-shadow: 0px 3px 15px #0000001A;
+    margin: 1rem 0;
+    padding: 0.2rem;
+}
+.benefits__rowIcon {
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits__rowContent {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.benefits__rowContent p{
+    margin-bottom: 0px!important;
+    margin-left: 20px;
+}
+
+</style>
+<body>
+    <header>
+        <div class="topBar"></div>
+      </header>
+    <section class="topInfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 topInfo__title">
+            <h1><b>SIŁA JEST KOBIETĄ - 5 TYGODNI, KTÓRE ODMIENIĄ TWOJE ŻYCIE</b></h1>
+            <p>Szukasz kompleksowego planu działania, który pomoże Ci osiągnąć wymarzoną sylwetkę? Dobrze trafiłaś! Jesteś tu, więc pierwszy krok do zupełnej metamorfozy już za Tobą.<b> Nie bój się zmiany na lepsze – czas i tak upłynie!</b></p>
+          </div>
+          <div class="col-md-6">
+            <img src="zółty-laptop.webp" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-8 topInfo__subtitle">
+            <p>Stworzyłem to wyzwanie tak, by każda kobieta mogła poczuć się wyjątkowo. Chcę udowodnić, że wcale nie potrzebujesz kosztownych diet i wymyślnych treningów by osiągnąć sukces. Pokażę Ci jak niewiele wystarczy żeby odmienić swoje życie na lepsze.</p>
+          </div>
+          <div class="col-md-4 topInfo__arrow">
+            <img src="strzalka.webp" alt="">
+            <p>
+              EBOOK DOSTĘPNY<br> NA WSZYSTKIE URZĄDZENIA
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="methamorphoses">
+                <div class="methamorphoses__background">      </div>
+                    <div class="container">
+                    <div class="row methamorphoses__row">
+                    <div class="col-md-4"><img src="IMG_5119 (1).webp" alt="" class="img-fluid"></div>
+                    
+                    <div class="col-md-4"><img src="IMG_5119 (1) (2).webp" alt="" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="IMG_5119 (1) (1).webp" alt="" class="img-fluid"></div>
+                </div>
+            </div>
+      </section>
+
+<section class="about"> 
+    <h2 class="text-center about__title">MÓJ PROJEKT TO:</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 about__image">
+                <img src="about1.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 about__content">
+                <p>
+                    <b>Szybkie, pyszne i tanie posiłki</b>. W mojej diecie korzystam z podstawowych produktów dostępnych w <b>każdym sklepie</b>. Potrawy, które Ci proponuję nie wymagają mistrzowskich zdolności i wielu godzin spędzonych w kuchni.
+                </p>
+            </div>
+
+            <div class="col-md-6 about__content">
+                <p>
+                    Precyzyjny plan treningowy. Każde ćwiczenie otrzymujesz pokazane w <b>formie wideo</b>, ponieważ dla mnie priorytetem jest <b>prawidłowa technika</b>. Nie musisz być sportowcem, by wysmuklić sylwetkę. <b>Ja nie zostawię Cię</b> z tym samej!
+                </p>
+                
+            </div>
+            <div class="col-md-6 about__image">
+                <img src="about2.webp" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-md-6">
+                <img src="about3.webp about__image" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 about__content">
+                <p>
+                    Dołączenie do <b>wyjątkowej społeczności</b>, którą stale kontroluję moim czujnym, trenerskim okiem. <b>Wspólny cel</b> ułatwia działanie, mobilizuje i dodaje sił w kryzysowych momentach. <b>Koniec z wymówkami!</b>
+                </p>
+            </div>
+
+            <div class="col-md-6 about__content">
+                <p>
+                    <b>Sprawdzone metody</b> walki z tłuszczem. Dzięki zastosowaniu moich autorskich rozwiązań nie tylko zrzucisz zbędne kilogramy i pozbędziesz się cellulitu, ale także poprawisz kondycję oraz wzmocnisz mięśnie. Dodatkowo dam Ci wskazówki jak wygładzić i ujędrnić skórę.
+                </p>
+                
+            </div>
+            <div class="col-md-6 about__image">
+                <img src="about4.webp" alt="" class="img-fluid">
+            </div>
+
+            <div class="col-md-6 about__image">
+                <img src="about5.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 about__content">
+                <p>
+                    Budowa <b>idealnych proporcji</b>. Pomogę Ci uzyskać <b>płaski brzuch, seksowne pośladki i wąską talię</b>. Z takim ciałem pokochasz swoje odbicie w lustrze i nie będę się wstydziła obcisłych ubrań. <b>Sylwetka marzeń</b> jest w zasięgu Twojej ręki.
+                </p>
+            </div>
+
+            <div class="col-md-6 about__content">
+                <p>
+                   <b> Stuprocentowy sukces.</b> Mój autorski projekt pomógł odmienić ciała setek kobiet. Nowatorskie sposoby, z których korzystam są <b>niezawodne</b>. Moje podopieczne już osiągnęły <b>wymarzone figury</b>. Ty też możesz!
+                </p>
+                
+            </div>
+            <div class="col-md-6 about__image">
+                <img src="about6.webp" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="methamorphoses">
+    <div class="methamorphoses__background">      </div>
+        <div class="container">
+        <div class="row methamorphoses__row">
+        <div class="col-md-4"><img src="metamorfoza4.webp" alt="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="metamorfoza5.webp" alt="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="metamorfoza6.webp" alt="" class="img-fluid"></div>
+    </div>
+</div>
+</section>
+
+<section class="aboutTrainer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 aboutTrainer__title">
+                <h2 class="text-center">"NIGDY NIE REZYGNUJ Z CELU TYLKO DLATEGO, ŻE OSIĄGNIĘCIE GO WYMAGA CZASU. CZAS I TAK UPŁYNIE."</h2>
+                <h3 class="text-center"><strong>H. Jackson Brown Jr.</strong></h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 aboutTrainer__subtitle">
+                <h2>Doświadczenie <br> połączone z pasją</h2><br>
+                <p>Długie lata pracy jako trener dały mi możliwość przeprowadzenia setek metamorfoz. Każdego dnia mam styczność z różnymi typami sylwetek, do których dobieram indywidualne plany. To dzięki najnowszym szkoleniom i dokładnej obserwacji procesu redukcji moich podopiecznych opracowałem niezawodne metody walki ze zbędnymi kilogramami. Jestem pewny, że mój program pomoże także Tobie!</p>
+                <br><br>
+                <h2>Potężna dawka wiedzy</h2><br>
+                <p>W prostych słowach wytłumaczę Ci na czym polega proces odchudzania i odmiany swojego dotychczasowego stylu życia. Dzięki tym informacjom aktywność i racjonalne odżywianie staną się Twoją codziennością. Nie musisz się martwić efektem jo-jo! Od tej pory sama będziesz wiedziała jak redukować tkankę tłuszczową i dbać o idealną formę przez cały rok. Wskazówki, które Ci dam zastąpią sztab specjalistów i ograniczą Twoje wydatki do minimum!</p>
+            </div>
+
+            <div class="col-md-6  aboutTrainer__image">
+                <img src="trener.webp" alt="" class="img-fluid">
+            </div>
+            <div class="bar"></div>
+            <div class="col-md-8 aboutTrainer__info">
+                <p class="text-center">
+                    <b>W moim projekcie znajdziesz wszystko czego potrzebujesz do osiągnięcia sukcesu.</b> Nauczę Cię racjonalnego odżywiania, dokładnie pokażę wszystkie ćwiczenia, a co najważniejsze – dam receptę na utratę kilogramów i zdobycie figury marzeń!
+                </p>
+            </div>
+            <div class="bar"></div>
+            <div class="col-md-6">
+                <p>Kluczowym elementem skutecznego odchudzania jest zdrowe podejście. Jadłospis, który dla Ciebie przygotowałem jest smaczny, prosty i przede wszystkim odpowiednio zbilansowany. Dopracowałem w nim każdy szczegół, bo wiem, że dzięki temu odmienisz swoje nawyki raz na zawsze. W połączeniu z efektywnym planem treningowym jest gwarancją pozbycia się nawet najbardziej opornej tkanki tłuszczowej.</p>
+            </div>
+            <div class="col-md-6">
+                <p>W trosce o Twoje zdrowie zadbałem o poprawną technikę ćwiczeń – wszystkie pokażę Ci w formie wideo. W środku znajdziesz też całe mnóstwo wiedzy na temat racjonalnego stylu życia, obalę najpowszechniejsze mity żywieniowe, podpowiem jak radzić sobie na zakupach czy walczyć z cellulitem. To nie tylko program, który odmieni sylwetkę, ale też mini poradnik, który wprowadzi Cię w nowy styl życia. Nie ma mowy o efekcie JOJO - gwarantuję, że pokochasz sam proces!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="benefits">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 benefits__title">
+                <h2>PROGRAM SIŁA JEST KOBIETĄ TO:</h2>
+                <br>
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon1.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Niezbędna dawka wiedzy, która wprowadzi Cię w świat zdrowego odżywiania</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon2.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Liczne wskazówki m.in. odnośnie cellulitu czy przemyślanych zakupów</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon3.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Konkretny 7 - dniowy jadłospis, w którym znajdziesz całe mnóstwo pysznych i prostych przepisów</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon4.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Długa lista zamienników, która daje niezliczoną ilość kombinacji</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon5.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Podstawowe produkty, które z łatwością znajdziesz w każdym sklepie</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon6.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Duża dowolność, ponieważ NIE chcę Cię ograniczać</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon7.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Obalenie najpowszechniejszych mitów żywieniowych utrudniających metamorfozę</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="16_weight_loss.svg" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Autorski plan treningowy nastawiony na kształtowanie pięknych, kobiecych proporcji</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="Layer 2.svg" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Krótkie i skuteczne jednostki treningowe idealne do wykonania w warunkach domowych</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon8.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Efektywne ćwiczenia, które wysmuklą Twoje nogi, podniosą pośladki, wyostrzą talię i ujędrnią skórę</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon9.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Video instruktaże dzięki czemu poznasz technikę ćwiczeń i nie zrobisz sobie krzywdy</p></div>
+                </div>
+
+                <div class="benefits__row">
+                    <div class="benefits__rowIcon"><img src="icon10.png" alt="" class="img-fluid"></div>
+                    <div class="benefits__rowContent"><p>Dostęp do prywatnej grupy i pełne wsparcie ze strony niezwykłej społeczności</p></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="methamorphoses">
+    <div class="methamorphoses__background">      </div>
+        <div class="container">
+        <div class="row methamorphoses__row">
+        <div class="col-md-4"><img src="metamorfoza9.webp" alt="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="metamorfoza8.webp" alt="" class="img-fluid"></div>
+        <div class="col-md-4"><img src="metamorfoza7.webp" alt="" class="img-fluid"></div>
+    </div>
+</div>
+</section>
+
+<section class="opinion">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 opinion__title">
+                <h2>POZNAJ OPINIE ZADOWOLONYCH UCZESTNICZEK PROJEKTU</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="bar"></div>
+
+<section class="meal">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 meal__content">
+                <h2>NIE CHCESZ REZYGNOWAĆ Z ULUBIONYCH POTRAW?  <br> <span style="color: #ff6700;">NIE MA PROBLEMU!</span></h2>
+                <p>JA DAJĘ OGROMNĄ DOWOLNOŚĆ.<br> Zobacz sama jak pyszne posiłki je się na mojej diecie:</p>
+            </div>
+            <div class="col-md-6">
+                <img src="mealbaner.webp" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-12">
+                slider
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <h2>Chcę żeby każda kobieta mogła pokochać swoje ciało i dlatego mocno obniżam cenę na start.</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="cta__box">
+                    <div class="cta__boxPrice"><p>89zł</p> <span>329zł</span></div>
+                    <div class="cta__boxButton">
+                        <button>Działam!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6"><img src="licznik.png" class="img-fluid" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<section class="QandA">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 QandA__title">
+                <h2 class="text-center">PYTANIA I ODPOWIEDZI</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Czy dieta na mnie zadziała?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Oczywiście! Na podstawie informacji od Ciebie indywidualnie dobiorę podaż kalorii, której potrzebujesz. Dzięki temu mam pewność, że wspólnie osiągniemy sukces.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Czy dam radę pogodzić intensywny tryb życia z zaleceniami?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Kiedy i jak dostanę program?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Na jakich urządzeniach mogę korzystać z programu?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Co jeśli nie jem mięsa?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Po jakim czasie zobaczę efekty?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Jak poradzę sobie w chwilach słabości?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Czy będę musiała jeszcze coś dopłacić?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bottomIcons">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;zadowalające efekty</b></div><br><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;proste posiłki</b></div><br><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;długa lista zamienników</b></div><br><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;oszczędność czasu</b></div><br><br>
+
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;sprawdzone treningi</b></div><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;dostęp do bazy filmów instruktażowych</b></div><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;brak ukrytych kosztów</b></div><br>
+            <div class="col-md-3"><img src="checked.svg" alt=""><b>&nbsp;stałe wsparcie</b></div><br>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+             <div class="col-md-12">
+                <p class="text-center">Program „Kobieca sylwetka marzeń” jest stworzony dla kobiet, które chcą wyszczuplić swoje ciało i zrzucić zbędne kilogramy. Wyzwanie nie jest gwarancją efektów i poprawy stanu zdrowia. Wszystko zależy od danej osoby, jej zaangażowania i organizmu.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
